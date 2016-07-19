@@ -1,0 +1,54 @@
+h1{
+	text-align: center;
+	font-size: 40px ;
+	text-indent: 10%;
+	border-color: gray;
+	border-style: solid;
+	}
+.medit{
+	height: 300px;
+	width: 1400px;
+    }
+    .explanation{
+    	text-align: left;
+	top:492px;
+    right:10px;
+    width:900px;
+    }
+body{
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	background: aqua;
+	margin: 0; 
+	padding: 0;
+}
+div{
+	background: #fff url(http://csszengarden.com/001/medit.jpg);
+}
+.summary {
+	text-align: center;
+}
+.preamble{
+	text-align: right;
+}
+h3{
+	color: white;
+	background: blue;
+}
+.design-selection{
+	text-align: left;
+	position:relative;
+    top:592px;
+    right:10px;
+    width:200px
+}
+.summary{
+	text-align: left;
+}
+.preamble h3{
+	text-align: left;
+}
+.preamble p{
+	text-align: left;
+}
+}
