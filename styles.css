@@ -2,46 +2,86 @@ h1{
 	text-align: center;
 	font-size: 40px ;
 	text-indent: 10%;
-	border-color: gray;
+	border-color: white;
 	border-style: solid;
-	}
+	padding: 205px;
+	color: white;
+	background-image: url(img/piedra.jpg);
+}
+   p{
+   	color:black;
+   	font-size: 16px;
+	font-family: Verdana;
+   }
+  #css-zen-garden{
+  	background:  transparent url(img/cot.jpg) ;
+  	background-repeat:  repeat;
+  	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  	background-position: center;
+  }
+  .mainsupporting{
+  	width: 770px;
+  }
+  .preamble{
+  	width: 770px;
+  }
+  .participation{
+  	width: 770px;
+  }
+  .benefits{
+  	width: 770px;
+   }
+.summary {
+	text-align: center;
+
+}
 .medit{
 	height: 300px;
 	width: 1400px;
     }
-    .explanation{
+.explanation{
     	text-align: left;
 	top:492px;
     right:10px;
-    width:900px;
+    width:770px;
     }
 body{
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	background: aqua;
 	margin: 0; 
 	padding: 0;
+	}
+.footer{
+	text-align: center; 
 }
-div{
-	background: #fff url(http://csszengarden.com/001/medit.jpg);
+a{
+	color:green;
+	font-family: Verdana;
 }
-.summary {
-	text-align: center;
-}
+
 .preamble{
 	text-align: right;
 }
 h3{
-	color: white;
-	background: blue;
+	color: black;
+	border-color: gray;
+	border-style: solid;
 }
 .design-selection{
-	text-align: left;
 	position:relative;
-    top:592px;
-    right:10px;
-    width:200px
-}
+    top:610px;
+    right:5px;
+    width:200px;
+ }
+ .select{
+ 	margin-top: 40px;
+ }
+ .design-selection li{
+ 	font-family: Verdana;
+ 	margin: -5px;
+ }
 .summary{
 	text-align: left;
 }
@@ -51,4 +91,11 @@ h3{
 .preamble p{
 	text-align: left;
 }
+.wrapper{
+	position: relative;
+    float: right;
+   margin-top: -160%;
+   margin-right: 17%;
+   display: block;
+   
 }
